@@ -1,0 +1,14 @@
+[project]
+name = "lunar-overconfidence"
+version = "0.1.0"
+description = "DDPG and TD3 experiments on LunarLander"
+requires-python = ">=3.11"
+dependencies = [
+    "rl-mind",
+    "scipy",
+    "ipykernel",
+    "ipython>=9.17.1",
+]
+
+[tool.uv]
+package = false
